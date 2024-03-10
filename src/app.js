@@ -1,5 +1,5 @@
-import express from "express";
-import { ProductManager } from "./productManager.js";
+const express = require ('express');
+import { ProductManager } from "./productManager";
 
 const PM = new ProductManager("products.json");
 const app = express();
